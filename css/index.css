@@ -1,0 +1,175 @@
+body{
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 50px;
+}
+
+div{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    margin: 2%;
+    border-style: solid;
+    border-width: thin;
+    border-color: #DCDCDC;
+    padding: 0px;
+    width: auto;
+}
+
+.top-bar{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.left-bar-img{
+    display: table-cell;
+    padding-right: 10px;
+}
+
+.left-bar-names{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.left-bar-names span{
+    display: block;
+}
+
+.name1{
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: -10%;
+}
+
+.name2{
+    color: grey;
+    font-size: 22px;
+}
+
+.links{
+    float: right;
+    margin-top: 2%;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.links a:hover{
+    color: grey;
+}
+
+.title-img{
+    width: 100%;
+    height: auto;
+}
+
+.h1-Didot{
+    font-family: 'GFS Didot', serif;
+}
+
+.row{
+    margin: auto;
+    width: 100%;
+}
+
+.col-lg-6{
+    margin-bottom: 2%;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: left;
+    width: 45rem;
+    margin: auto;
+}
+
+.leftcard{
+    margin-right: 5%;
+}
+
+.rightcard{
+    margin-left: 5%;
+}
+
+.card-title, .card-time, .card-text{
+    margin: 5%;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.card-title a{
+    text-decoration: none;
+    color: black;
+}
+
+.card-title a:hover{
+    color: #0000EE;
+}
+
+.heart-num{
+    float: right;
+    color: #cc9900;
+}
+
+.heart-num:hover{
+    color: gold;
+}
+
+.num{
+    font-weight: normal;
+}
+
+.card-time{
+    font-size: 16px;
+    font-style: italic;
+    color: grey;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.card-text{
+    font-size: 13px;
+    padding-bottom: 50px;
+}
+
+.img-container{
+    position: relative;
+}
+
+.card-img{
+    opacity: 1.0;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+}
+
+.icons{
+    opacity: 0.0;
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    transition: .5s ease;
+}
+
+.img-container:hover .card-img{
+    opacity: 0.3;
+}
+
+.img-container:hover .icons{
+    opacity: 1.0;
+}
